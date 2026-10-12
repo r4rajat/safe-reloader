@@ -1,0 +1,9 @@
+apiVersion: config.safereloader.r4rajat.com/v1alpha1
+kind: SafeReloadPolicy
+metadata:
+  labels:
+    app.kubernetes.io/name: safe-reloader
+    app.kubernetes.io/managed-by: kustomize
+  name: safereloadpolicy-sample
+spec:
+  # TODO(user): Add fields here
